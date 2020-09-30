@@ -1,0 +1,57 @@
+﻿
+
+body, header {
+    font-family: 'Raleway'; 
+    margin-left: 10px;
+}
+  
+
+#banniere {
+    display: flex; 
+    
+    width: 100;
+    height: 40px;
+    background: url("images/logo/Reservia.svg") no-repeat;
+  
+}
+
+#title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+#subtitle {
+ font-size: 10 px;
+
+}
+
+
+#conteneur {
+   
+    display: flex; /* affichage horizontal (affichage vertical par default*/
+    flex-wrap: wrap;
+
+    /*axe principal*/
+    justify-content: end; /*deplace les blocs vers la direction voulu*/
+    /*flex-direction: column-reverse; /*change l'ordre des blocs (annule affichage horizontal?)*/
+   
+}
+
+
+.element{ /*class element dans le HTML*/
+    position: absolute;
+    max-height: 80px; /*augmente la taille du conteneur entre les block*/
+    max-width: 25%;
+
+}
+
+nav ul {
+    color: #0065FC;
+    display: flex;
+    font-size: 1.3em;
+    list-style-type: none;
+}
+
+nav li {
+    margin-right: 20px;
+}

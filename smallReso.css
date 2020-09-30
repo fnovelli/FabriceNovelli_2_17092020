@@ -1,0 +1,17 @@
+﻿
+@media screen and (max-width: 1024px)
+{
+    p 
+    {
+        font-size: 80%;
+    }
+
+#contenur {
+    flex-direction: column;
+}
+
+    nav ul {
+        flex-direction: column;
+        font-size: 1.3em;
+    }
+}
