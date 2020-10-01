@@ -22,18 +22,15 @@ body {
 
 #menu {
    
-    display: flex; /* affichage horizontal (affichage vertical par default*/
+    display: flex;
     flex-wrap: wrap;
-   
-    /*axe principal*/
-    justify-content: end; /*deplace les blocs vers la direction voulu*/
-    /*flex-direction: column-reverse; /*change l'ordre des blocs (annule affichage horizontal?)*/
+    justify-content: end; 
 }
 
 
-.element{ /*class element dans le HTML*/
+.element{ 
     position: absolute;
-    max-height: 80px; /*augmente la taille du conteneur entre les block*/
+    max-height: 80px; 
     max-width: 25%;
 }
 
@@ -41,7 +38,6 @@ nav ul {
    
     color: #0065FC;
     display: flex;
-
     list-style-type: none;
 }
 
@@ -52,46 +48,57 @@ nav li {
 
 
 #hebergements {
-   background-color: #F2F2F2;
+
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
 }
 
-.element2{ 
-    height: 400px; 
-    width: 50px;
-}
-
-#popularity {
+.element2{  
+    border-radius: 10px;
+    block-size: 400px;
+   
     background-color: #F2F2F2;
+    width: 1200px;
+    max-width: 1200px;
 }
 
- .popuchild {
-    height: 400px; 
-    width: 50px;
+
+.popuchild{
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    position: absolute;
+    block-size: 400px;
+    right: 100px;
+    width: 500px;
 }
 
  #footersite {
-    background-color: #F2F2F2;
-    display: flex; /* affichage horizontal (affichage vertical par default*/
-    flex-wrap: wrap;
-    height: 200px; 
-    width: 100%;
-    /*axe principal*/
 
-    /*flex-direction: column-reverse; /*change l'ordre des blocs (annule affichage horizontal?)*/
+    text-align: left;
+    display: flex;
 }
 
 .aboutchild {
-    height: 80px; 
-    width: 100%;
+    background-color: red;
+    height: 150px; 
+    width: 50%;
  }
 
 
  .accochild {
-    height: 80px; 
-    width: 100%;
+    background-color: blue;
+    height: 150px; 
+    width: 50%;
  }
 
  .helpchild {
-    height: 80px; 
-    width: 100%;
+    background-color:orange;
+    height: 150px; 
+    width: 50%;
  }
+
+ nav al {
+
+    list-style-type: none;
+}
