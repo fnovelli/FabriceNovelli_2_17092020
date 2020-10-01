@@ -3,8 +3,13 @@
 body, header {
     font-family: 'Raleway'; 
     margin-left: 10px;
+
 }
-  
+
+
+#search, #filter {
+    margin-left: 10px;
+}
 
 #banniere {
     display: flex; 
@@ -24,6 +29,7 @@ body, header {
  font-size: 10 px;
 
 }
+
 
 
 #conteneur {
