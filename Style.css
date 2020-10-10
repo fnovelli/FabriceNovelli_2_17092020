@@ -1,14 +1,22 @@
 ﻿
-header {
-    font-family: 'Raleway'; 
+body {
+    font-family: 'Raleway';
+    padding: 20px;
 }
 
-body {
+/*header*/
+header {
+    margin-left: 20px;
+}
+
+main {
     margin-left: 20px;
 }
 
 
 #banniere {
+    
+    margin-top: -40px; 
     display: flex; 
     width: 100;
     height: 40px;
@@ -17,85 +25,677 @@ body {
 
 #title {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 1000;
 }
 
+
+a:visited {
+    color: #0065FC;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
 #menu {
-   
+
     display: flex;
     flex-wrap: wrap;
     justify-content: end; 
 }
 
 
-.element{ 
-    position: absolute;
-    max-height: 80px; 
-    max-width: 25%;
-}
-
 nav ul {
    
     color: #0065FC;
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
 }
 
 nav li {
-   
+
     margin-right: 20px;
 }
 
+/*Body*/
 
-#hebergements {
+#SearchBlock {
 
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#map {
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    height: 40px;
+    width: 30px;
+}
+
+.locationImg {
+    margin-right: 10px;
+    border-radius: 15px;
+    background: url("images/icons/map.svg") no-repeat;
+    background-size: 100%;
+    height: 40px;
+    width: 20px;
+}
+
+#searchButton {
+    border-radius: 10px;
+    flex-wrap: wrap;
+    block-size: 40px;
+    background-color:#0065FC;
+    width: 140px;
+}
+
+.searchText{
+    padding: 6px;
     text-align: center;
+    color: white;
+}
+
+#filter {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    display: flex; 
+}
+
+
+#ecoblock {
+    margin-left: 20px;
+    border-radius: 35px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    height: 40px;
+    width: 200px;
+    display: flex;
+}
+
+.ecoblockBG {
+    margin-top: -5px;
+    border-radius: 35px;
+    background-color: #F2F2F2;
+    height: 40px;
+    width: 40px;
+}
+
+
+.ecoimg {
+    margin-left: 5px;
+    border-radius: 15px;
+    background: url("images/icons/money.svg") no-repeat;
+    background-size: 100%;
+    background-position-y: 10px;
+    height: 30px;
+    width: 20px;
+    filter: invert(24%) sepia(78%) saturate(5628%) hue-rotate(212deg) brightness(105%) contrast(99%);
+}
+
+#ecoText {
+    color: black;
+    text-align: center;
+ }
+
+ 
+
+ #famblock {
+    margin-left: 20px;
+    border-radius: 35px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    height: 40px;
+    width: 200px;
+    display: flex;
+}
+
+.famblockBG {
+    margin-top: -5px;
+    border-radius: 35px;
+    background-color: #F2F2F2;
+    height: 40px;
+    width: 40px;
+}
+
+
+.famimg {
+    margin-left: 15px;
+    border-radius: 15px;
+    background: url("images/icons/male.svg") no-repeat;
+    background-size: 40%;
+    background-position-y: 10px;
+    height: 40px;
+    width: 20px;
+    filter: invert(24%) sepia(78%) saturate(5628%) hue-rotate(212deg) brightness(105%) contrast(99%);
+}
+
+#famText {
+    color: black;
+    text-align: center;
+ }
+ 
+
+ #loveblock {
+    margin-left: 20px;
+    border-radius: 35px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    height: 40px;
+    width: 200px;
+    display: flex;
+}
+
+.loveblockBG {
+    margin-top: -5px;
+    border-radius: 35px;
+    background-color: #F2F2F2;
+    height: 40px;
+    width: 40px;
+}
+
+
+.loveimg {
+    margin-left: 10px;
+    border-radius: 15px;
+    background: url("images/icons/heart.svg") no-repeat;
+    background-size: 100%;
+    background-position-y: 10px;
+    height: 40px;
+    width: 20px;
+    filter: invert(24%) sepia(78%) saturate(5628%) hue-rotate(212deg) brightness(105%) contrast(99%);
+}
+
+#petText {
+    color: black;
+    text-align: center;
+ }
+
+
+
+ #petblock {
+    margin-left: 20px;
+    border-radius: 35px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    height: 40px;
+    width: 200px;
+    display: flex;
+}
+
+.petblockBG {
+    margin-top: -5px;
+    border-radius: 35px;
+    background-color: #F2F2F2;
+    height: 40px;
+    width: 40px;
+}
+
+
+.petimg {
+    margin-left: 10px;
+    border-radius: 15px;
+    background: url("images/icons/dog.svg") no-repeat;
+    background-size: 100%;
+    background-position-y: 10px;
+    height: 40px;
+    width: 20px;
+    filter: invert(24%) sepia(78%) saturate(5628%) hue-rotate(212deg) brightness(105%) contrast(99%);
+}
+
+#petText {
+    color: black;
+    text-align: center;
+ }
+
+
+
+ #info {
+    display: flex;
+ }
+
+.infoImg {
+
+    background: url("images/icons/info.svg") no-repeat;
+    height: 20px;
+    width: 20px;
+}
+
+.infoTxt {
+    margin-left: 10px;
+    text-align: right;
+}
+
+
+/*Hostel and Popularity Body*/
+
+#hostel {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#hebergechild{  
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    height: 800px;
+    width: 800px;
+}
+
+
+
+.hebergText {
+    text-align: left;
+    margin-left: 10px;
+    width: 550px;
+    max-height: 30px;
+}
+
+
+#h1block{
+
+    border-radius: 25px;
+    background-color: white;
+    height: 220px;
+    width: 250px;
+}
+
+
+.imgh1{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/hebergements/4_small/hostel1.jpg") no-repeat;
+    background-size: 100%;
+    height: 120px;
+    width: 240px;
+}
+
+.h1text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+
+#h2block{
+    border-radius: 25px;
+    background-color: white;
+    height: 220px;
+    width: 250px;
+}
+
+
+.imgh2{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/hebergements/4_small/hostel2.jpg") no-repeat;
+    background-size: 100%;
+    height: 120px;
+    width: 240px;
+}
+
+.h2text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+
+#h3block{
+    border-radius: 25px;
+    background-color: white;
+    height: 220px;
+    width: 250px;
+}
+
+
+.imgh3{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/hebergements/4_small/hostel3.jpg") no-repeat;
+    background-size: 100%;
+    height: 120px;
+    width: 240px;
+}
+
+.h3text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+#h4block{
+
+    border-radius: 25px;
+    background-color: white;
+    height: 220px;
+    width: 250px;
+}
+
+.imgh4{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/hebergements/4_small/hostel4.jpg") no-repeat;
+    background-size: 100%;
+    height: 120px;
+    width: 240px;
+}
+
+.h4text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+#h5block{
+    border-radius: 25px;
+    background-color: white;
+    height: 220px;
+    width: 250px;
+}
+
+.imgh5{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/hebergements/4_small/hostel5.jpg") no-repeat;
+    background-size: 100%;
+    height: 120px;
+    width: 240px;
+}
+
+.h5text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+#h6block{
+    border-radius: 25px;
+    background-color: white;
+    height: 220px;
+    width: 250px;
+}
+
+.imgh6{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/hebergements/4_small/hostel6.jpg") no-repeat;
+    background-size: 100%;
+    height: 120px;
+    width: 240px;
+}
+
+.h6text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+
+
+#popuchild{
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: #F2F2F2;
+    padding: 10px;
+    height: 800px;
+    width: 700px;
+    margin-left: 30px;
+}
+
+#h7block{
+    border-radius: 25px;
+    background-color: white;
+    height: 220px;
+    width: 250px;
+}
+
+.imgh7{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/hebergements/4_small/hostel7.jpg") no-repeat;
+    background-size: 100%;
+    height: 120px;
+    width: 240px;
+}
+
+.h7text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+#h8block{
+    border-radius: 25px;
+    background-color: white;
+    height: 220px;
+    width: 250px;
+}
+
+.imgh8{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/hebergements/4_small/hostel8.jpg") no-repeat;
+    background-size: 100%;
+    height: 120px;
+    width: 240px;
+}
+
+.h8text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+#h9block{
+    border-radius: 25px;
+    background-color: white;
+    height: 220px;
+    width: 250px;
+}
+
+.imgh9{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/hebergements/4_small/hostel9.jpg") no-repeat;
+    background-size: 100%;
+    height: 120px;
+    width: 240px;
+}
+
+.h9text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+/*Hobbies body*/
+
+#hobby {
+
+    flex-wrap: wrap;
     display: flex;
     margin-bottom: 20px;
 }
 
-.element2{  
-    border-radius: 10px;
-    block-size: 400px;
-   
-    background-color: #F2F2F2;
-    width: 1200px;
-    max-width: 1200px;
+#hobbychild {
+
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
 }
 
 
-.popuchild{
-    border-radius: 10px;
-    background-color: #F2F2F2;
-    position: absolute;
-    block-size: 400px;
-    right: 100px;
-    width: 500px;
+#hb1block{
+    border-radius: 25px;
+    background-color: white;
+    height: 280px;
+    width: 250px;
 }
+
+.imghb1{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/activites/4_small/hobby1.jpg") no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 240px;
+}
+
+.hb1text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+#hb2block{
+    border-radius: 25px;
+    background-color: white;
+    height: 280px;
+    width: 250px;
+}
+
+.imghb2{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/activites/4_small/hobby2.jpg") no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 240px;
+}
+
+.hb2text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+#hb3block{
+    border-radius: 25px;
+    background-color: white;
+    height: 280px;
+    width: 250px;
+}
+
+.imghb3{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/activites/4_small/hobby3.jpg") no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 240px;
+}
+
+.hb3text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+
+#hb4block{
+    border-radius: 25px;
+    background-color: white;
+    height: 280px;
+    width: 250px;
+}
+
+.imghb4{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/activites/4_small/hobby4.jpg") no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 240px;
+}
+
+.hb4text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+
+#hb5block{
+    border-radius: 25px;
+    background-color: white;
+    height: 280px;
+    width: 250px;
+}
+
+.imghb5{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/activites/4_small/hobby5.jpg") no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 240px;
+}
+
+.hb5text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+#hb6block{
+    border-radius: 25px;
+    background-color: white;
+    height: 280px;
+    width: 250px;
+}
+
+.imghb6{
+    margin: 5px;
+    border-radius: 15px;
+    background: url("images/activites/4_small/hobby6.jpg") no-repeat;
+    background-size: 100%;
+    height: 220px;
+    width: 240px;
+}
+
+.hb6text{
+    margin-left: 20px;
+    text-align: left;
+    text-align: bottom;
+}
+
+
 
  #footersite {
-
+    padding: 20px;
+    background-color:  #F2F2F2;
     text-align: left;
     display: flex;
 }
 
 .aboutchild {
-    background-color: red;
+
     height: 150px; 
-    width: 50%;
+    width: 60%;
+    margin-left: 5px;
  }
 
 
  .accochild {
-    background-color: blue;
     height: 150px; 
-    width: 50%;
+    width: 60%;
  }
 
  .helpchild {
-    background-color:orange;
+
     height: 150px; 
-    width: 50%;
+    width: 60%;
  }
 
  nav al {
