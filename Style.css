@@ -76,12 +76,8 @@ nav li {
 }
 
 .locationImg {
-    margin-right: 10px;
     border-radius: 15px;
-    background: url("images/icons/map.svg") no-repeat;
-    background-size: 100%;
-    height: 40px;
-    width: 20px;
+
 }
 
 #searchButton {
@@ -93,7 +89,6 @@ nav li {
 }
 
 .searchText{
-    padding: 6px;
     text-align: center;
     color: white;
 }
@@ -128,11 +123,6 @@ nav li {
 .ecoimg {
     margin-left: 5px;
     border-radius: 15px;
-    background: url("images/icons/money.svg") no-repeat;
-    background-size: 100%;
-    background-position-y: 10px;
-    height: 30px;
-    width: 20px;
     filter: invert(24%) sepia(78%) saturate(5628%) hue-rotate(212deg) brightness(105%) contrast(99%);
 }
 
@@ -163,13 +153,7 @@ nav li {
 
 
 .famimg {
-    margin-left: 15px;
     border-radius: 15px;
-    background: url("images/icons/male.svg") no-repeat;
-    background-size: 40%;
-    background-position-y: 10px;
-    height: 40px;
-    width: 20px;
     filter: invert(24%) sepia(78%) saturate(5628%) hue-rotate(212deg) brightness(105%) contrast(99%);
 }
 
@@ -199,13 +183,8 @@ nav li {
 
 
 .loveimg {
-    margin-left: 10px;
-    border-radius: 15px;
-    background: url("images/icons/heart.svg") no-repeat;
-    background-size: 100%;
-    background-position-y: 10px;
-    height: 40px;
-    width: 20px;
+
+
     filter: invert(24%) sepia(78%) saturate(5628%) hue-rotate(212deg) brightness(105%) contrast(99%);
 }
 
@@ -236,13 +215,9 @@ nav li {
 
 
 .petimg {
-    margin-left: 10px;
+
     border-radius: 15px;
-    background: url("images/icons/dog.svg") no-repeat;
-    background-size: 100%;
-    background-position-y: 10px;
-    height: 40px;
-    width: 20px;
+
     filter: invert(24%) sepia(78%) saturate(5628%) hue-rotate(212deg) brightness(105%) contrast(99%);
 }
 
@@ -257,12 +232,7 @@ nav li {
     display: flex;
  }
 
-.infoImg {
 
-    background: url("images/icons/info.svg") no-repeat;
-    height: 20px;
-    width: 20px;
-}
 
 .infoTxt {
     margin-left: 10px;
