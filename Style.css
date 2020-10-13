@@ -82,6 +82,7 @@ nav li {
     margin-top: 10px;
     margin-left: 15px;
     height: 40px;
+    color: black;
 
 }
 
@@ -125,6 +126,7 @@ input[type="search"] {
 
 
 #ecoblock {
+    color: black;
     margin-left: 20px;
     border-radius: 35px;
     border-color: #F2F2F2;
@@ -158,6 +160,7 @@ input[type="search"] {
  
 
  #famblock {
+    color: black;
     margin-left: 20px;
     border-radius: 35px;
     border-color: #F2F2F2;
@@ -184,12 +187,12 @@ input[type="search"] {
 }
 
 #famText {
-    color: black;
     text-align: center;
  }
  
 
  #loveblock {
+    color: black;
     margin-left: 20px;
     border-radius: 35px;
     border-color: #F2F2F2;
@@ -215,13 +218,13 @@ input[type="search"] {
 }
 
 #petText {
-    color: black;
     text-align: center;
  }
 
 
 
  #petblock {
+    color: black;
     margin-left: 20px;
     border-radius: 35px;
     border-color: #F2F2F2;
@@ -315,8 +318,7 @@ input[type="search"] {
 
 .h1text{
     margin-left: 20px;
-    text-align: left;
-    text-align: bottom;
+    color: black;
 }
 
 .h1stars{
@@ -343,8 +345,7 @@ input[type="search"] {
 
 .h2text{
     margin-left: 20px;
-    text-align: left;
-    text-align: bottom;
+    color: black;
 }
 
 
@@ -368,8 +369,7 @@ input[type="search"] {
 
 .h3text{
     margin-left: 20px;
-    text-align: left;
-    text-align: bottom;
+    color: black;
 }
 
 #h4block{
@@ -391,8 +391,7 @@ input[type="search"] {
 
 .h4text{
     margin-left: 20px;
-    text-align: left;
-    text-align: bottom;
+    color: black;
 }
 
 #h5block{
@@ -413,8 +412,7 @@ input[type="search"] {
 
 .h5text{
     margin-left: 20px;
-    text-align: left;
-    text-align: bottom;
+    color: black;
 }
 
 #h6block{
@@ -435,8 +433,7 @@ input[type="search"] {
 
 .h6text{
     margin-left: 20px;
-    text-align: left;
-    text-align: bottom;
+    color: black;
 }
 
 
@@ -474,6 +471,7 @@ input[type="search"] {
 .h7text{
     margin-left: 20px;
     text-align: right;
+    color: black;
 
 }
 
@@ -496,6 +494,7 @@ input[type="search"] {
 .h8text{
     margin-left: 20px;
     text-align: right;
+    color: black;
 }
 
 #h9block{
@@ -517,6 +516,7 @@ input[type="search"] {
 .h9text{
     margin-left: 20px;
     text-align: right;
+    color: black;
 }
 
 /*Hobbies body*/
@@ -560,7 +560,7 @@ input[type="search"] {
 .hb1text{
     margin-left: 20px;
     text-align: left;
-    text-align: bottom;
+    color: black;
 }
 
 #hb2block{
@@ -582,7 +582,7 @@ input[type="search"] {
 .hb2text{
     margin-left: 20px;
     text-align: left;
-    text-align: bottom;
+    color: black;
 }
 
 #hb3block{
@@ -604,7 +604,7 @@ input[type="search"] {
 .hb3text{
     margin-left: 20px;
     text-align: left;
-    text-align: bottom;
+    color: black;
 }
 
 
@@ -627,7 +627,7 @@ input[type="search"] {
 .hb4text{
     margin-left: 20px;
     text-align: left;
-    text-align: bottom;
+    color: black;
 }
 
 
@@ -650,7 +650,7 @@ input[type="search"] {
 .hb5text{
     margin-left: 20px;
     text-align: left;
-    text-align: bottom;
+    color: black;
 }
 
 #hb6block{
@@ -672,7 +672,7 @@ input[type="search"] {
 .hb6text{
     margin-left: 20px;
     text-align: left;
-    text-align: bottom;
+    color: black;
 }
 
 
