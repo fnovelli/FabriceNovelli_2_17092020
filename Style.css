@@ -132,7 +132,7 @@ input[type="search"] {
     border-color: #F2F2F2;
     border-style: solid;
     height: 40px;
-    width: 150px;
+    width: 180px;
     display: flex;
 }
 
@@ -141,20 +141,24 @@ input[type="search"] {
     border-radius: 35px;
     background-color: #F2F2F2;
     height: 48px;
-    width: 40px;
+    width: 45px;
 }
 
 
-.ecoimg {
+.ecoimg {    
+    margin-top: 15px;
     font-size: 1.1rem;
-    margin-left: 5px;
-    border-radius: 15px;
+    margin-left: 8px;
     color:#0065FC;
 }
 
-#ecoText {
+.ecoText {
+    height: 45px;
+    align-self: center;
+
+    margin-left: 5px;
     color: black;
-    text-align: center;
+
  }
 
  
@@ -166,7 +170,7 @@ input[type="search"] {
     border-color: #F2F2F2;
     border-style: solid;
     height: 40px;
-    width: 200px;
+    width: 150px;
     display: flex;
 }
 
@@ -176,18 +180,23 @@ input[type="search"] {
     border-radius: 35px;
     background-color: #F2F2F2;
     height: 48px;
-    width: 40px;
+    width: 45px;
 }
 
 
 .famimg {
-    font-size: 1.5rem;
-    border-radius: 15px;
+    margin-top: 12px;
+    margin-left: 12px;
+    font-size: 1.3rem;
     color:#0065FC;
 }
 
-#famText {
-    text-align: center;
+.famText {
+    height: 45px;
+    align-self: center;
+
+    margin-left: 5px;
+    color: black;
  }
  
 
@@ -198,7 +207,7 @@ input[type="search"] {
     border-color: #F2F2F2;
     border-style: solid;
     height: 40px;
-    width: 200px;
+    width: 160px;
     display: flex;
 }
 
@@ -207,7 +216,7 @@ input[type="search"] {
     border-radius: 35px;
     background-color: #F2F2F2;
     height: 48px;
-    width: 40px;
+    width: 45px;
 }
 
 
@@ -215,12 +224,21 @@ input[type="search"] {
 
     font-size: 1.3rem;
     color:#0065FC;
+    margin-left: 10px;
+    margin-top: 12px;
+    height: 48px;
+    width: 45px;
+    align-self: center;
 }
 
-#petText {
-    text-align: center;
- }
+.lovetext {
 
+    margin-left: 5px;
+    height: 48px;
+    width: 160px;
+    align-self: center;
+    color: black;
+}
 
 
  #petblock {
@@ -230,7 +248,7 @@ input[type="search"] {
     border-color: #F2F2F2;
     border-style: solid;
     height: 40px;
-    width: 200px;
+    width: 210px;
     display: flex;
 }
 
@@ -239,27 +257,38 @@ input[type="search"] {
     border-radius: 35px;
     background-color: #F2F2F2;
     height: 48px;
-    width: 40px;
+    width: 45px;
 }
 
 
 .petimg {
+    margin-left: 10px;
+    margin-top: 10px;
     font-size: 1.3rem;
-    border-radius: 15px;
     color:#0065FC;
 }
 
-#petText {
+.pettext {
+    margin-left: 5px;
+    height: 48px;
+    width: 160px;
+    align-self: center;
     color: black;
-    text-align: center;
  }
 
 
 
  #info {
+    height: 48px;
+    width: 460px;
     display: flex;
  }
 
+ .infoImg {
+    margin-left: 2px;
+    align-self: center;
+
+}
 
 
 .infoTxt {
