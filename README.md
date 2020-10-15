@@ -1,7 +1,7 @@
 ---
 permalink: /index.html
-/Style.css
-/smallReso.css
+permalink: /Style.css
+permalink: /smallReso.css
 ---
 
 Project 2 model to site
