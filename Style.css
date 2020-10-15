@@ -70,17 +70,17 @@ nav li {
 }
 
 .map {
-    margin-top: 3px;
-    border-radius: 10px;
-    border-right: none;
+    margin-top: 3.8px;
+    border-radius: 10px 0px 0px 10px;
+
     background-color: #F2F2F2;
-    height: 40px;
+    block-size: 40px;
     width: 50px;
 }
 
 .locationImg {
     margin-top: 10px;
-    margin-left: 15px;
+    margin-left: 20px;
     height: 40px;
     color: black;
 
@@ -88,10 +88,8 @@ nav li {
 
 .searchButton {
 
-    margin-top: 3px;
-
-    border-radius: 10px;
-    flex-wrap: wrap;
+    margin-top: 4px;
+    border-radius: 0px 10px 10px 0px;
     block-size: 40px;
     background-color:#0065FC;
     width: 140px;
@@ -100,11 +98,11 @@ nav li {
 
 
 input[type="search"] {
-
+    border-width: 1px 1px 1px;
+    border-color: #F2F2F2;
     border-right: none;
     border-left: none;
     margin-top: -15px;
-
     padding: 0.35em 0.75em;
     font-size: 1.1em;
     height: 40px;
@@ -112,7 +110,8 @@ input[type="search"] {
 }
 
 .searchText{
-
+    margin-top: -5px;
+    height: 40px;
     text-align: center;
     color: white;
 }
@@ -137,28 +136,28 @@ input[type="search"] {
 }
 
 .ecoblockBG {
-    margin-top: -5px;
+    margin-top: -3px;
+    margin-left: -2px;
     border-radius: 35px;
     background-color: #DEEBFF;
-    height: 48px;
+    height: 45px;
     width: 45px;
 }
 
 
 .ecoimg {    
-    margin-top: 15px;
+
+    margin-top: 14px;
     font-size: 1.1rem;
-    margin-left: 8px;
+    margin-left: 9px;
     color:#0065FC;
 }
 
 .ecoText {
-    height: 45px;
+    height: 48px;
     align-self: center;
-
     margin-left: 5px;
     color: black;
-
  }
 
  
@@ -175,27 +174,27 @@ input[type="search"] {
 }
 
 .famblockBG {
-
-    margin-top: -5px;
+    margin-top: -3px;
+    margin-left: -2px;
     border-radius: 35px;
     background-color: #DEEBFF;
-    height: 48px;
+    height: 45px;
     width: 45px;
 }
 
 
 .famimg {
-    margin-top: 12px;
-    margin-left: 12px;
+    margin-top: 11px;
+    margin-left: 13px;
     font-size: 1.3rem;
     color:#0065FC;
 }
 
 .famText {
-    height: 45px;
+    height: 48px;
     align-self: center;
 
-    margin-left: 5px;
+    margin-left: 8px;
     color: black;
  }
  
@@ -212,10 +211,11 @@ input[type="search"] {
 }
 
 .loveblockBG {
-    margin-top: -5px;
+    margin-top: -3px;
+    margin-left: -2px;
     border-radius: 35px;
     background-color: #DEEBFF;
-    height: 48px;
+    height: 45px;
     width: 45px;
 }
 
@@ -253,10 +253,11 @@ input[type="search"] {
 }
 
 .petblockBG {
-    margin-top: -5px;
+    margin-top: -3px;
+    margin-left: -2px;
     border-radius: 35px;
     background-color: #DEEBFF;
-    height: 48px;
+    height: 45px;
     width: 45px;
 }
 
@@ -303,6 +304,7 @@ input[type="search"] {
     margin-top: 30px;
     flex-wrap: wrap;
     display: flex;
+   
 
 }
 
@@ -313,22 +315,31 @@ input[type="search"] {
     justify-content: space-around;
     border-radius: 20px;
     background-color: #F2F2F2;
-    height: 800px;
-    width: 880px;
+    height: 650px;
+    width: 900px;
 }
 
 
 
 .hebergText {
-    text-align: left;
-    margin-left: 20px;
     width: 800px;
-    height: 0px;
+    display: flex;
+    text-align: left;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    height: 40px;
 }
 
+.hebergText2 {
+
+    margin-top: 10px;
+
+    width: 800px;
+    height: 30px;
+}
 
 #h1block{
-    margin-left: 20px;
+
     border-radius: 25px;
     background-color: white;
     height: 220px;
@@ -403,7 +414,7 @@ input[type="search"] {
 }
 
 #h4block{
-    margin-left: 20px;
+
     border-radius: 25px;
     background-color: white;
     height: 220px;
@@ -469,91 +480,91 @@ input[type="search"] {
 
 
 #popuchild{
-    
+    margin-left: 60px;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    border-radius: 30px;
+    justify-content: space-around;
+    border-radius: 20px;
     background-color: #F2F2F2;
-    padding: 10px;
     height: 800px;
-    width: 700px;
-    margin-left: 30px;
+    width: 480px;
+}
+
+.popuText {
+    text-align: left;
+    margin-left: 40px;
+    width: 800px;
+    height: 40px;
 }
 
 #h7block{
+    display: flex;
     border-radius: 25px;
     background-color: white;
-    height: 200px;
-    width: 300px;
+    height: 160px;
+    width: 380px;
 }
 
 .imgh7{
-    margin: 10px;
-    border-radius: 15px;
-
+    margin: 5px;
+    border-radius: 15px 0px 0px 15px;
     background: url("images/hebergements/4_small/hostel7.jpg") no-repeat;
     background-size: 100%;
-    height: 50px;
-    width: 180px;
-
+    height: 220px;
+    width: 150px;
 }
 
 .h7text{
-    height: 100px;
-    width: 200px;
     margin-left: 20px;
-    text-align: right;
     color: black;
-
+    height: 80px;
+    width: 180px;
 }
 
 #h8block{
+    display: flex;
     border-radius: 25px;
     background-color: white;
-    height: 200px;
-    width: 300px;
+    height: 160px;
+    width: 380px;
 }
 
 .imgh8{
     margin: 5px;
-    border-radius: 15px;
+    border-radius: 15px 0px 0px 15px;
     background: url("images/hebergements/4_small/hostel8.jpg") no-repeat;
     background-size: 100%;
-    height: 150px;
-    width: 180px;
+    height: 140px;
+    width: 150px;
 }
 
 .h8text{
-    height: 100px;
-    width: 200px;
     margin-left: 20px;
-    text-align: right;
     color: black;
 }
 
 #h9block{
+    display: flex;
     border-radius: 25px;
     background-color: white;
-    height: 200px;
-    width: 300px;
+    height: 160px;
+    width: 380px;
 }
 
 .imgh9{
     margin: 5px;
-    border-radius: 15px;
+    border-radius: 15px 0px 0px 15px;
     background: url("images/hebergements/4_small/hostel9.jpg") no-repeat;
     background-size: 100%;
-    height: 150px;
-    width: 180px;
+    height: 140px;
+    width: 150px;
 }
 
 .h9text{
-    height: 100px;
-    width: 200px;
     margin-left: 20px;
-    text-align: right;
     color: black;
 }
+
 
 /*Hobbies body*/
 
