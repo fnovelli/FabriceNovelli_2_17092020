@@ -1,9 +1,10 @@
 ﻿
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 768px)
 {
     body 
     {
         font-size: 80%;
+        padding: 0px;
 
     }
 
@@ -13,6 +14,31 @@
     }
 
 
+    
+
+    nav ul {
+        font-size: 1.3em;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px)
+{
+    body 
+    {
+        font-size: 80%;
+        padding: 0px;
+
+    }
+
+    header
+    {
+        font-size: 80%;        
+    }
+
+
+    
 
     nav ul {
         font-size: 1.3em;

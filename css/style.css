@@ -5,28 +5,24 @@ body {
 }
 
 /*header*/
-header {
+header, main {
     margin-left: 20px;
 }
 
-main {
-    margin-left: 20px;
-}
-
-
-#banniere {
-    
-    margin-top: -40px; 
+#menuBlock {
     display: flex; 
-    width: 100;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banniere {
+    display: flex; 
+
+    width: 500px;
     height: 40px;
     background: url("images/logo/Reservia.svg") no-repeat;
 }
 
-#title {
-    font-size: 20px;
-    font-weight: 1000;
-}
 
 
 a:visited {
@@ -39,16 +35,17 @@ a:link {
 }
 
 
-#menu {
+.menu {
 
+    justify-content: end;
     display: flex;
     flex-wrap: wrap;
-    justify-content: end; 
+    width: 600px;
 }
 
 
 nav ul {
-   
+
     color: #0065FC;
     display: flex;
     flex-wrap: wrap;
@@ -56,9 +53,15 @@ nav ul {
 }
 
 nav li {
-
-    margin-right: 20px;
+    justify-content: space-around;
+    margin-right: 80px;
 }
+
+#title {
+    font-size: 20px;
+    font-weight: 1000;
+}
+
 
 /*Body*/
 
@@ -77,6 +80,7 @@ nav li {
     block-size: 40px;
     width: 50px;
 }
+
 
 .locationImg {
     margin-top: 10px;
@@ -133,6 +137,11 @@ input[type="search"] {
     height: 40px;
     width: 180px;
     display: flex;
+}
+
+#ecoblock:hover, #famblock:hover, #loveblock:hover, #petblock:hover {
+
+    background-color: gold;
 }
 
 .ecoblockBG {
@@ -304,8 +313,6 @@ input[type="search"] {
     margin-top: 30px;
     flex-wrap: wrap;
     display: flex;
-   
-
 }
 
 #hebergechild{  
@@ -589,7 +596,6 @@ input[type="search"] {
 #hb1block{
     border-radius: 25px;
     background-color: white;
-    overflow: hidden; 
 
     height: 400px;
     width: 250px;
@@ -611,6 +617,7 @@ input[type="search"] {
 }
 
 #hb2block{
+    display: flex;
     border-radius: 25px;
     background-color: white;
     height: 280px;
@@ -633,6 +640,7 @@ input[type="search"] {
 }
 
 #hb3block{
+    display: flex;
     border-radius: 25px;
     background-color: white;
     height: 280px;
@@ -640,6 +648,7 @@ input[type="search"] {
 }
 
 .imghb3{
+
     margin: 5px;
     border-radius: 15px;
     background: url("images/activites/4_small/hobby3.jpg") no-repeat;
