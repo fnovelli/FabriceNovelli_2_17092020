@@ -3,22 +3,16 @@
 {
     body 
     {
-        font-size: 80%;
         padding: 0px;
+        font-size: 1.2em;
 
     }
 
-    header
-    {
-        font-size: 80%;        
+    #footersite {
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
-
-    
-
-    nav ul {
-        font-size: 1.3em;
-    }
 }
 
 
@@ -27,20 +21,27 @@
 {
     body 
     {
-        font-size: 80%;
         padding: 0px;
-
+        font-size: 1.1em;
     }
 
-    header
-    {
-        font-size: 80%;        
+    #popuchild{
+        margin-left: 60px;
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        justify-content: space-around;
+        border-radius: 20px;
+        background-color: #F2F2F2;
+        height: 800px;
+        width: 480px;
     }
 
-
+    #footersite {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
     
 
-    nav ul {
-        font-size: 1.3em;
-    }
 }
