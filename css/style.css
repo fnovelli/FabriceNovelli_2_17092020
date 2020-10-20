@@ -778,31 +778,49 @@ input[type="search"] {
     color: black;
 }
 
- #footersite {
-    padding: 20px;
-    background-color:  #F2F2F2;
-    text-align: left;
-    display: flex;
 
+/*FOOTER*/
+
+ #footerBG {
+    display: flex;
+    background-color:  #F2F2F2;
+    height: 200px; 
+    max-height: 200px; 
+}
+
+.footerBlocks {
+    display: flex;
+    justify-content: space-around;
+    background-color:  #F2F2F2;
+    width: 1200px;
+    max-width: auto;
 }
 
 .aboutchild {
+    margin-top: 30px;
     list-style-type: none;
-    height: 150px; 
-    width: 60%;
-    margin-left: 5px;
+    max-height: 200px; 
+    max-width: 200px;
+    width: auto;
+    height: auto;
  }
 
 
  .accochild {
+    margin-top: 30px;
     list-style-type: none;
-    height: 150px; 
-    width: 60%;
+    max-height: 200px; 
+    max-width: 200px;
+    width: auto;
+    height: auto;
  }
 
  .helpchild {
+    margin-top: 30px;
     list-style-type: none;
-    height: 150px; 
-    width: 60%;
+    max-height: 200px; 
+    max-width: 200px;
+    width: auto;
+    height: auto;
  }
 
