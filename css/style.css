@@ -21,11 +21,17 @@ header, main {
     display: flex; 
 
     width: 500px;
-    height: 40px;
+    height: 70px;
     background: url("images/logo/Reservia.svg") no-repeat;
 }
 
+#title {
+    margin-bottom: 8px;
+}
 
+.subtitle {
+    margin-bottom: 12px;
+}
 
 a:visited {
     color: #0065FC;
@@ -124,7 +130,7 @@ input[type="search"] {
 
 #filter {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     flex-wrap: wrap;
     display: flex; 
 }
@@ -305,7 +311,7 @@ input[type="search"] {
 
 .infoTxt {
     margin-left: 10px;
-    text-align: right;
+    align-self: center;
 }
 
 
@@ -330,19 +336,16 @@ input[type="search"] {
 }
 
 
-
 .hebergText {
+    margin-right: 35px;
     width: 800px;
-    display: flex;
+    margin-top: 17px;
     text-align: left;
-    margin-left: -20px;
-    margin-bottom: 20px;
-    height: 40px;
+    margin-bottom: 10px;
+    height: 30px;
 }
 
 .hebergText2 {
-
-
     margin-top: -20px;
     width: 820px;
     height: 50px;
@@ -507,21 +510,33 @@ input[type="search"] {
 }
 
 .popuText {
+    margin-top: 5px;
     text-align: left;
-    width: 300px;
-    height: 40px;
+    max-width: 250px;
+    width: auto;
+    max-height: 50px;
 }
 
 .iconPop {
-    text-align: left;
-    width: 100px;
-    height: 30px;
+    margin-top: 20px;
+    align-self: center;
+    margin-right: 5px;
+    max-width: 350px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+    font-size: 23px;
+    text-align: right;
+
 }
 
 #popublock{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
     text-align: left;
-    margin-left: 40px;
-    width: 500px;
+    margin-left: 5px;
+    width: 380px;
     max-height: 60px;
 }
 
