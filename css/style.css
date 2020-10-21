@@ -660,7 +660,7 @@ input[type="search"] {
     border-style: solid;
     background-color: white;
     height: 500px;
-    width: 250px;
+    width: 300px;
 }
 
 
@@ -669,11 +669,12 @@ input[type="search"] {
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
 
-    height: 450px;
-    width: 250px;
+    height: 440px;
+    width: 300px;
 }
 
 .hb1text {
+    margin-top: 10px;
     margin-left: 20px;
     height: 40px;
     text-align: left;
@@ -686,7 +687,7 @@ input[type="search"] {
     border-radius: 25px;
     background-color: white;
     height: 220px;
-    width: 250px;
+    width: 300px;
 }
 
 
@@ -737,8 +738,8 @@ input[type="search"] {
     border-style: solid;
     border-radius: 25px;
     background-color: white;
-    height: 280px;
-    width: 250px;
+    height: 500px;
+    width: 300px;
 }
 
 
@@ -747,8 +748,8 @@ input[type="search"] {
     background: url("images/activites/4_small/hobby4.jpg") no-repeat;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
-    height: 230px;
-    width: 250px;
+    height: 450px;
+    width: 300px;
 }
 
 .hb4text {
