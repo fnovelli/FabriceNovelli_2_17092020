@@ -362,7 +362,7 @@ input[type="search"] {
 
 .imgh1{
     margin: 5px;
-    background: url("images/hebergements/4_small/hostel1.jpg") no-repeat;
+    background: url("images/hebergements/4_small/hostel1.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     height: 120px;
@@ -392,7 +392,7 @@ input[type="search"] {
 
 .imgh2{
     margin: 5px;
-    background: url("images/hebergements/4_small/hostel2.jpg") no-repeat;
+    background: url("images/hebergements/4_small/hostel2.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     height: 120px;
@@ -417,7 +417,7 @@ input[type="search"] {
 
 .imgh3{
     margin: 5px;
-    background: url("images/hebergements/4_small/hostel3.jpg") no-repeat;
+    background: url("images/hebergements/4_small/hostel3.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     height: 120px;
@@ -447,7 +447,7 @@ input[type="search"] {
 
 .imgh4{
     margin: 5px;
-    background: url("images/hebergements/4_small/hostel4.jpg") no-repeat;
+    background: url("images/hebergements/4_small/hostel4.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     height: 120px;
@@ -468,7 +468,7 @@ input[type="search"] {
 
 .imgh5{
     margin: 5px;
-    background: url("images/hebergements/4_small/hostel5.jpg") no-repeat;
+    background: url("images/hebergements/4_small/hostel5.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     height: 120px;
@@ -481,6 +481,7 @@ input[type="search"] {
 }
 
 #h6block{
+
     border-radius: 25px;
     background-color: white;
     height: 220px;
@@ -490,7 +491,7 @@ input[type="search"] {
 .imgh6{
     margin: 5px;
     border-radius: 15px;
-    background: url("images/hebergements/4_small/hostel6.jpg") no-repeat;
+    background: url("images/hebergements/4_small/hostel6.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     height: 120px;
@@ -557,7 +558,7 @@ input[type="search"] {
 
 .imgh7 {
     margin: 5px;
-    background: url("images/hebergements/4_small/hostel7.jpg") no-repeat;
+    background: url("images/hebergements/4_small/hostel7.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 0px 0px 20px;
     height: 150px;
@@ -580,7 +581,7 @@ input[type="search"] {
 
 .imgh8 {
     margin: 5px;
-    background: url("images/hebergements/4_small/hostel8.jpg") no-repeat;
+    background: url("images/hebergements/4_small/hostel8.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 0px 0px 20px;
     height: 150px;
@@ -603,7 +604,7 @@ input[type="search"] {
 
 .imgh9 {
     margin: 5px;
-    background: url("images/hebergements/4_small/hostel9.jpg") no-repeat;
+    background: url("images/hebergements/4_small/hostel9.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 0px 0px 20px;
     height: 150px;
@@ -637,16 +638,16 @@ input[type="search"] {
 /*Hobbies body*/
 
 #hobby {
+
     margin-top: 10px;
     flex-wrap: wrap;
     display: flex;
 }
 
 #hobbychild {
-
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-radius: 20px;
     height: 650px;
     width: 1400px;
@@ -665,7 +666,7 @@ input[type="search"] {
 
 
 .imghb1 {
-    background: url("images/activites/4_small/hobby1.jpg") no-repeat;
+    background: url("images/activites/4_small/hobby1.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
 
@@ -692,7 +693,7 @@ input[type="search"] {
 
 
 .imghb2 {
-    background: url("images/activites/4_small/hobby2.jpg") no-repeat;
+    background: url("images/activites/4_small/hobby2.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     height: 200px;
@@ -718,7 +719,7 @@ input[type="search"] {
 
 
 .imghb3 {
-    background: url("images/activites/4_small/hobby3.jpg") no-repeat;
+    background: url("images/activites/4_small/hobby3.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     height: 180px;
@@ -745,7 +746,7 @@ input[type="search"] {
 
 .imghb4 {
 
-    background: url("images/activites/4_small/hobby4.jpg") no-repeat;
+    background: url("images/activites/4_small/hobby4.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     height: 450px;
@@ -772,7 +773,7 @@ input[type="search"] {
 
 .imghb5 {
 
-    background: url("images/activites/4_small/hobby5.jpg") no-repeat;
+    background: url("images/activites/4_small/hobby5.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     height: 180px;
@@ -798,7 +799,7 @@ input[type="search"] {
 
 .imghb6 {
 
-    background: url("images/activites/4_small/hobby6.jpg") no-repeat;
+    background: url("images/activites/4_small/hobby6.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
     height: 180px;
