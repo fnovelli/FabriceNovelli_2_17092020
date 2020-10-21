@@ -649,18 +649,17 @@ input[type="search"] {
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
-    height: 650px;
+    height: 500px;
     width: 1400px;
 }
-
 
 
 #hb1block{
     border-radius: 25px;
     border-color: #F2F2F2;
-    border-style: solid;
     background-color: white;
-    height: 500px;
+    box-shadow: 0px 1px 1px 1px #F2F2F2;
+    height: 430px;
     width: 300px;
 }
 
@@ -669,8 +668,7 @@ input[type="search"] {
     background: url("images/activites/4_small/hobby1.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
-
-    height: 440px;
+    height: 370px;
     width: 300px;
 }
 
@@ -682,10 +680,21 @@ input[type="search"] {
     color: black;
 }
 
+#mergeHB {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 450px;
+    width: 300px;
+}
+
+
+
 #hb2block {
     border-color: #F2F2F2;
-    border-style: solid;
     border-radius: 25px;
+    box-shadow: 0px 1px 1px 1px #F2F2F2;
     background-color: white;
     height: 220px;
     width: 300px;
@@ -696,7 +705,7 @@ input[type="search"] {
     background: url("images/activites/4_small/hobby2.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
-    height: 200px;
+    height: 160px;
     width: 300px;
 }
 
@@ -709,12 +718,13 @@ input[type="search"] {
 }
 
 #hb3block {
+    margin-top: 30px;
     border-color: #F2F2F2;
-    border-style: solid;
+    box-shadow: 0px 1px 1px 1px #F2F2F2;
     background-color: white;
     border-radius: 25px;
-    height: 220px;
-    width: 250px;
+    height: 160px;
+    width: 300px;
 }
 
 
@@ -722,7 +732,7 @@ input[type="search"] {
     background: url("images/activites/4_small/hobby3.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
-    height: 180px;
+    height: 100px;
     width: 300px;
 }
 
@@ -736,10 +746,10 @@ input[type="search"] {
 
 #hb4block {
     border-color: #F2F2F2;
-    border-style: solid;
+    box-shadow: 0px 1px 1px 1px #F2F2F2;
     border-radius: 25px;
     background-color: white;
-    height: 500px;
+    height: 430px;
     width: 300px;
 }
 
@@ -749,7 +759,7 @@ input[type="search"] {
     background: url("images/activites/4_small/hobby4.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
-    height: 450px;
+    height: 370px;
     width: 300px;
 }
 
@@ -760,55 +770,67 @@ input[type="search"] {
     color: black;
 }
 
+#mergeHB2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 20px;
+    height: 450px;
+    width: 300px;
+}
+
+
 
 #hb5block {
+
     border-color: #F2F2F2;
-    border-style: solid;
-    border-radius: 25px;
+    box-shadow: 0px 1px 1px 1px #F2F2F2;
     background-color: white;
-    height: 220px;
-    width: 250px;
+    border-radius: 25px;
+    height: 200px;
+    width: 300px;
 }
 
 
 .imghb5 {
-
     background: url("images/activites/4_small/hobby5.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
-    height: 180px;
+    height: 150px;
     width: 300px;
 }
 
 .hb5text {
     margin-top: 10px;
     margin-left: 20px;
+    height: 40px;
     text-align: left;
     color: black;
 }
 
 #hb6block {
+    margin-top: 25px;
     border-color: #F2F2F2;
-    border-style: solid;
+    box-shadow: 0px 1px 1px 1px #F2F2F2;
     background-color: white;
     border-radius: 25px;
-    height: 220px;
-    width: 250px;
+    height: 200px;
+    width: 300px;
 }
 
 
 .imghb6 {
-
     background: url("images/activites/4_small/hobby6.jpg") no-repeat center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
-    height: 180px;
+    height: 150px;
     width: 300px;
 }
 
 .hb6text {
     margin-top: 10px;
     margin-left: 20px;
+    height: 40px;
     text-align: left;
     color: black;
 }
@@ -817,7 +839,8 @@ input[type="search"] {
 /*FOOTER*/
 
  #footerBG {
-    margin-top: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
     display: flex;
     background-color:  #F2F2F2;
     height: 200px; 
