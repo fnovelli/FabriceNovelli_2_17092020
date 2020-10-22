@@ -386,8 +386,7 @@ input[type="search"] {
     border-radius: 25px;
     background-color: white;
     height: 220px;
-    max-width: 250px;
-    width: auto;
+    width: 250px;
 }
 
 
@@ -412,8 +411,7 @@ input[type="search"] {
     border-radius: 25px;
     background-color: white;
     height: 220px;
-    max-width: 250px;
-    width: auto;
+    width: 250px;
 }
 
 

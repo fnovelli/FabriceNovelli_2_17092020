@@ -17,7 +17,7 @@
 
     body {
         max-width: 991px;
-        font-size: 1.3rem;
+        font-size: 1.10rem;
 
     }
 
@@ -41,6 +41,7 @@
         width: 500px;
         background-size: 25%;
     }
+
 
     .map {
         margin-top: 10.8px;
@@ -75,6 +76,7 @@
 
 
     #hebergechild {
+        order: 1;
         background-color: white;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -82,28 +84,186 @@
         flex-direction: column;
         height: 2000px;
     }
-
+    
     .hebergText {
-        margin-right: 0px;
-        width: 300px;
-        height: 200px;
-        margin-top: 0px;
-        text-align: center;
-        margin-bottom: 10px;
-        height: 30px;
+        max-width: 900px;
+        width: auto;
     }
+
+    .hebergText2 {
+        width: 820px;
+        height: 50px;
+        text-align: center;
+    }
+
+    #h1block{
+        height: 260px;
+        width: 400px;
+    }
+    
+    .imgh1{
+        height: 150px;
+        width: 390px;
+    }
+    
+    .h1text{
+        margin-left: 20px;
+        color: black;
+    }
+
+    #h2block {
+        height: 260px;
+        width: 400px;
+    }
+    
+    .imgh2{
+
+        height: 150px;
+        width: 390px;
+    }
+    
+    .h2text {
+        margin-left: 20px;
+        color: black;
+    }
+
+
+    #h3block {
+        height: 260px;
+        width: 400px;
+    }
+    
+    .imgh3 {
+
+        height: 150px;
+        width: 390px;
+    }
+    
+    .h3text{
+        margin-left: 20px;
+        color: black;
+    }
+
+
+    #h4block{
+        height: 260px;
+        width: 400px;
+    }
+    
+    .imgh4{
+
+        height: 150px;
+        width: 390px;
+    }
+    
+    .h4text{
+        margin-left: 20px;
+        color: black;
+    }
+
+
+    #h5block{
+        height: 260px;
+        width: 400px;
+    }
+    
+    .imgh5{
+
+        height: 150px;
+        width: 390px;
+    }
+    
+    .h5text{
+        margin-left: 20px;
+        color: black;
+    }
+
+
+    #h6block{
+        height: 260px;
+        width: 400px;
+    }
+    
+    .imgh6{
+
+        height: 150px;
+        width: 390px;
+    }
+    
+    .h6text{
+        margin-left: 20px;
+        color: black;
+    }
+
 
     #popuchild {
         flex-wrap: nowrap;
         align-items: center;
         flex-direction: column;
-        height: 800px;
-
+        height: 700px;
+        width: 500px;
     }
+
+
+
+    .popuText {
+        margin-top: 5px;
+        text-align: left;
+        max-width: 300px;
+        width: auto;
+        max-height: 50px;
+    }
+
+    #h7block{
+        height: 160px;
+        width: 400px;
+    }
+    
+    .imgh7 {
+        height: 150px;
+        width: 155px;
+    }
+    
+    .h7text{
+        margin-left: 20px;
+        color: black;
+    }
+    
+    #h8block{
+        height: 160px;
+        width: 400px;
+    }
+    
+    .imgh8 {
+        height: 150px;
+        width: 220px;
+    }
+    
+    .h8text{
+        margin-left: 20px;
+        color: black;
+    }
+    
+    #h9block{
+        height: 160px;
+        width: 400px;
+    }
+    
+    .imgh9 {
+        height: 150px;
+        width: 155px;
+    }
+    
+    .h9text{
+        margin-left: 20px;
+        color: black;
+    }
+    
 
     #hobby {
         justify-content: center;
         align-items: center;
+
     }
 
     #hobbychild {
@@ -111,8 +271,149 @@
         align-items: center;
         flex-wrap: nowrap;
         flex-direction: column;
-        height: 1800px;
+        height: 1600px;
     }
+
+    #mergeHB {
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-top: 20px;
+        height: 650px;
+        width: 300px;
+    }
+
+    #mergeHB2 {
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-top: 20px;
+        height: 650px;
+        width: 300px;
+    }
+    
+    
+    
+
+    #hb1block{
+        height: 260px;
+        width: 400px;
+    }
+    
+    
+    .imghb1 {
+        height: 150px;
+        width: 390px;
+    }
+    
+    .hb1text {
+        margin-top: 10px;
+        margin-left: 20px;
+        height: 40px;
+        text-align: left;
+        color: black;
+    }
+    
+    
+    
+    #hb2block {
+        height: 260px;
+        width: 400px;
+    }
+    
+    
+    .imghb2 {
+        height: 150px;
+        width: 390px;
+    }
+    
+    .hb2text {
+        margin-top: 10px;
+        margin-left: 20px;
+        height: 40px;
+        text-align: left;
+        color: black;
+    }
+    
+    #hb3block {
+        height: 260px;
+        width: 400px;
+    }
+    
+    
+    .imghb3 {
+        height: 150px;
+        width: 390px;
+    }
+    
+    .hb3text {
+        margin-top: 10px;
+        margin-left: 20px;
+        height: 40px;
+        text-align: left;
+        color: black;
+    }
+    
+    #hb4block {
+        margin-top: 20px;
+        height: 260px;
+        width: 400px;
+    }
+    
+    
+    .imghb4 {
+        height: 150px;
+        width: 390px;
+    }
+    
+    .hb4text {
+        margin-top: 10px;
+        margin-left: 20px;
+        text-align: left;
+        color: black;
+    }
+    
+
+    
+    
+    #hb5block {
+        height: 260px;
+        width: 400px;
+    }
+    
+    
+    .imghb5 {
+        height: 150px;
+        width: 390px;
+    }
+    
+    .hb5text {
+        margin-top: 10px;
+        margin-left: 20px;
+        height: 40px;
+        text-align: left;
+        color: black;
+    }
+    
+    #hb6block {
+        height: 260px;
+        width: 400px;
+    }
+    
+    
+    .imghb6 {
+        height: 150px;
+        width: 390px;
+    }
+    
+    .hb6text {
+        margin-top: 10px;
+        margin-left: 20px;
+        height: 40px;
+        text-align: left;
+        color: black;
+    }
+    
 
     .footerBlocks {
         flex-wrap: nowrap;
