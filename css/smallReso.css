@@ -1,47 +1,144 @@
 ﻿
-@media screen and (max-width: 768px)
-{
-    body 
-    {
-        padding: 0px;
-        font-size: 1.2em;
+@media screen and (max-width: 768px) {
+
+    body {
+        max-width: 768px;
+    }
+
+    #hebergechild {
+        align-self: center;
+        height: 650px;
+        width: 450px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) { /*IPAD*/
+
+    body {
+        max-width: 991px;
+        font-size: 1.3rem;
 
     }
 
-    #footersite {
-        flex-wrap: wrap;
-        justify-content: space-around;
+    #menuBlock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4rem;
+        width: 600px;
+        height: 180px;
+    }
+    
+    .menu {
+        margin-left: -40px;
+        width: 500px;
+    }
+
+
+    .banniere {
+        display: flex; 
+        width: 500px;
+        background-size: 25%;
+    }
+
+    .map {
+        margin-top: 10.8px;
+    }
+    
+
+    .searchButton {
+
+        margin-top: 10px;
+        border-radius: 0px 10px 10px 0px;
+        block-size: 40px;
+        background-color:#0065FC;
+        width: 140px;
+    }
+
+
+    #filter {
+    
+        align-items: center;
+        max-width: 400px;
+        width: auto;
+        height: 300px;
+   
+    }
+
+    #hostel {
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    #hebergechild {
+        background-color: white;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 2000px;
+    }
+
+    .hebergText {
+        margin-right: 0px;
+        width: 300px;
+        height: 200px;
+        margin-top: 0px;
+        text-align: center;
+        margin-bottom: 10px;
+        height: 30px;
+    }
+
+    #popuchild {
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+        height: 800px;
+
+    }
+
+    #hobby {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hobbychild {
+
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 1800px;
+    }
+
+    .footerBlocks {
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: 500px;
+        flex-direction: column;
     }
 
 }
 
+@media screen and (min-width: 992px) and (max-width: 1199px) {
 
-
-@media screen and (max-width: 1024px)
-{
-    body 
-    {
-        padding: 0px;
-        font-size: 1.1em;
+    body {
+        max-width: 1199px;
     }
 
-    #popuchild{
-        margin-left: 60px;
-        margin-top: 60px;
-        display: flex;
-        flex-wrap: wrap;
-        
-        justify-content: space-around;
-        border-radius: 20px;
-        background-color: #F2F2F2;
-        height: 800px;
-        width: 480px;
+
+    #hebergechild {  
+
+        height: 1800px;
+        width: 450px;
     }
 
-    #footersite {
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
+}
 
+@media screen and (min-width: 1200px) {
+
+ 
 }
