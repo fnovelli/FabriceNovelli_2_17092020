@@ -1,15 +1,14 @@
 ﻿
 body {
+    min-width: 300px;
     max-width: 1400px;
+    width: auto;
     margin: auto;
+
     font-family: 'Raleway';
     padding: 40px;
 }
 
-/*header*/
-header, main {
-    margin-left: 20px;
-}
 
 #menuBlock {
     display: flex; 
@@ -20,9 +19,6 @@ header, main {
 .banniere {
     display: flex; 
 
-    width: 500px;
-    height: 70px;
-    background: url("images/logo/Reservia.svg") no-repeat;
 }
 
 #title {
@@ -33,9 +29,19 @@ header, main {
     margin-bottom: 12px;
 }
 
-a:visited {
+.linkM:visited {
     color: #0065FC;
     text-decoration: none;
+}
+
+.linkM {
+   margin: 30px;  
+}
+
+
+
+.fitem:hover{
+    color: #0065FC;
 }
 
 a:link {
@@ -52,9 +58,9 @@ a:link {
 }
 
 
-nav ul {
+nav ul  {
 
-    color: #0065FC;
+
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
@@ -65,263 +71,43 @@ nav li {
     margin-right: 80px;
 }
 
-#title {
-    font-size: 20px;
-    font-weight: 1000;
-}
 
 
-/*Body*/
-
-#SearchBlock {
-
-    width: 450px;
+.fcontainer {
+    margin-top: 5px;
     flex-wrap: wrap;
     display: flex;
-}
 
-.map {
-    margin-top: 3.8px;
-    border-radius: 10px 0px 0px 10px;
-
-    background-color: #F2F2F2;
-    block-size: 40px;
-    width: 50px;
-}
-
-
-.locationImg {
-    margin-top: 10px;
-    margin-left: 20px;
-    height: 40px;
+  
+ }
+ 
+ .fitem {
     color: black;
-
-}
-
-.searchButton {
-
-    margin-top: 4px;
-    border-radius: 0px 10px 10px 0px;
-    block-size: 40px;
-    background-color:#0065FC;
-    width: 140px;
-}
-
-
-
-input[type="search"] {
-    border-width: 1px 1px 1px;
-    border-color: #F2F2F2;
-    border-right: none;
-    border-left: none;
-    margin-top: -15px;
-    padding: 0.35em 0.75em;
-    font-size: 1.1em;
-    height: 40px;
-    width: 250px;
-}
-
-.searchText{
-    margin-top: -5px;
-    height: 40px;
+    font-weight: bold;
+    margin: 1em;
+    padding: 0.5em;
     text-align: center;
-    color: white;
-}
-
-#filter {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-    display: flex; 
-}
-
-
-#ecoblock {
-    color: black;
-    margin-left: 20px;
-    border-radius: 35px;
-    border-color: #F2F2F2;
-    border-style: solid;
-    height: 40px;
-    width: 180px;
-    display: flex;
-}
-
-#ecoblock:hover, #famblock:hover, #loveblock:hover, #petblock:hover {
-
-    background-color: gold;
-}
-
-.ecoblockBG {
-    margin-top: -3px;
-    margin-left: -2px;
-    border-radius: 35px;
-    background-color: #DEEBFF;
-    height: 45px;
-    width: 45px;
-}
-
-
-.ecoimg {    
-
-    margin-top: 14px;
-    font-size: 1.1rem;
-    margin-left: 9px;
-    color:#0065FC;
-}
-
-.ecoText {
-    height: 48px;
-    align-self: center;
-    margin-left: 5px;
-    color: black;
- }
-
- 
-
- #famblock {
-    color: black;
-    margin-left: 20px;
-    border-radius: 35px;
-    border-color: #F2F2F2;
-    border-style: solid;
-    height: 40px;
-    width: 150px;
-    display: flex;
-}
-
-.famblockBG {
-    margin-top: -3px;
-    margin-left: -2px;
-    border-radius: 35px;
-    background-color: #DEEBFF;
-    height: 45px;
-    width: 45px;
-}
-
-
-.famimg {
-    margin-top: 11px;
-    margin-left: 13px;
-    font-size: 1.3rem;
-    color:#0065FC;
-}
-
-.famText {
-    height: 48px;
-    align-self: center;
-
-    margin-left: 8px;
-    color: black;
+    min-width: 80px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border-radius: 25px;
  }
  
+.textF {
 
- #loveblock {
-    color: black;
-    margin-left: 20px;
-    border-radius: 35px;
-    border-color: #F2F2F2;
-    border-style: solid;
-    height: 40px;
-    width: 160px;
-    display: flex;
-}
-
-.loveblockBG {
-    margin-top: -3px;
-    margin-left: -2px;
-    border-radius: 35px;
-    background-color: #DEEBFF;
-    height: 45px;
-    width: 45px;
-}
-
-
-.loveimg {
-
-    font-size: 1.3rem;
-    color:#0065FC;
-    margin-left: 10px;
-    margin-top: 12px;
-    height: 48px;
-    width: 45px;
     align-self: center;
 }
 
-.lovetext {
-
-    margin-left: 5px;
-    height: 48px;
-    width: 160px;
-    align-self: center;
-    color: black;
+#info {
+    margin-top: 5px;
 }
-
-
- #petblock {
-    color: black;
-    margin-left: 20px;
-    border-radius: 35px;
-    border-color: #F2F2F2;
-    border-style: solid;
-    height: 40px;
-    width: 210px;
-    display: flex;
-}
-
-.petblockBG {
-    margin-top: -3px;
-    margin-left: -2px;
-    border-radius: 35px;
-    background-color: #DEEBFF;
-    height: 45px;
-    width: 45px;
-}
-
-
-.petimg {
-    margin-left: 10px;
-    margin-top: 10px;
-    font-size: 1.3rem;
-    color:#0065FC;
-}
-
-.pettext {
-    margin-left: 5px;
-    height: 48px;
-    width: 160px;
-    align-self: center;
-    color: black;
- }
-
-
-
- #info {
-    height: 48px;
-    width: 460px;
-    display: flex;
- }
-
- .infoImg {
-     font-size: 22px;
-    margin-left: 2px;
-    align-self: center;
-}
-
-
-.infoTxt {
-    margin-left: 10px;
-    align-self: center;
-}
-
-
 
 /*Hostel and Popularity Body*/
 
-#hostel {
+/*#hostel {
     margin-top: 30px;
     flex-wrap: wrap;
     display: flex;
+    justify-content: space-around;
 }
 
 #hebergechild {  
@@ -331,8 +117,7 @@ input[type="search"] {
     justify-content: space-around;
     border-radius: 20px;
     background-color: #F2F2F2;
-    height: 650px;
-    width: 900px;
+
 }
 
 
@@ -351,12 +136,12 @@ input[type="search"] {
     height: 50px;
 }
 
-#h1block{
+.hblock{
+    justify-content: space-between;
     box-shadow: 1px 1px 1px 1px #F2F2F2;
     border-radius: 25px;
     background-color: white;
-    height: 220px;
-    width: 250px;
+    
 }
 
 
@@ -375,19 +160,11 @@ input[type="search"] {
 }
 
 .h1stars{
+    display: flex;
     font-size: 12px;
     color:#0065FC;
 }
 
-
-#h2block{
-    box-shadow: 1px 1px 1px 1px #F2F2F2;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    background-color: white;
-    height: 220px;
-    width: 250px;
-}
 
 
 .imgh2{
@@ -405,14 +182,7 @@ input[type="search"] {
 }
 
 
-#h3block{
-    box-shadow: 1px 1px 1px 1px #F2F2F2;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    background-color: white;
-    height: 220px;
-    width: 250px;
-}
+
 
 
 .imgh3{
@@ -430,21 +200,8 @@ input[type="search"] {
 }
 
 
-#h5h6block  {
-    max-height: 500px;
-    max-width: 250px;
-    height: auto;
-    height: auto;
-}
 
-#h4block{
-    box-shadow: 1px 1px 1px 1px #F2F2F2;
-    margin-bottom: 10px;
-    border-radius: 25px;
-    background-color: white;
-    height: 220px;
-    width: 250px;
-}
+
 
 .imgh4{
     margin: 5px;
@@ -460,13 +217,6 @@ input[type="search"] {
     color: black;
 }
 
-#h5block{
-    box-shadow: 1px 1px 1px 1px #F2F2F2;
-    border-radius: 25px;
-    background-color: white;
-    height: 220px;
-    width: 250px;
-}
 
 .imgh5{
     margin: 5px;
@@ -480,14 +230,6 @@ input[type="search"] {
 .h5text{
     margin-left: 20px;
     color: black;
-}
-
-#h6block{
-    box-shadow: 1px 1px 1px 1px #F2F2F2;
-    border-radius: 25px;
-    background-color: white;
-    height: 220px;
-    width: 250px;
 }
 
 .imgh6{
@@ -511,11 +253,12 @@ input[type="search"] {
 #popuchild{
     display: flex;
     flex-wrap: wrap;
+ 
     justify-content: space-around;
     border-radius: 20px;
     background-color: #F2F2F2;
-    height: 650px;
-    width: 450px;
+    max-width: 450px;
+
 }
 
 .popuText {
@@ -549,14 +292,14 @@ input[type="search"] {
     max-height: 60px;
 }
 
-#h7block{
+.h2block{
     box-shadow: 1px 1px 1px 1px #F2F2F2;
     display: flex;
+    justify-content: space-around;
     margin-top: -20px;
     border-radius: 25px;
     background-color: white;
-    height: 160px;
-    width: 380px;
+
 }
 
 .imgh7 {
@@ -573,16 +316,6 @@ input[type="search"] {
     color: black;
 }
 
-#h8block{
-    box-shadow: 1px 1px 1px 1px #F2F2F2;
-    display: flex;
-    margin-top: -20px;
-    border-radius: 25px;
-    background-color: white;
-    height: 160px;
-    width: 380px;
-}
-
 .imgh8 {
     margin: 5px;
     background: url("images/hebergements/4_small/hostel8.jpg") no-repeat center;
@@ -593,19 +326,11 @@ input[type="search"] {
 }
 
 .h8text{
+    display: flex;
     margin-left: 20px;
     color: black;
 }
 
-#h9block{
-    box-shadow: 1px 1px 1px 1px #F2F2F2;
-    display: flex;
-    margin-top: -20px;
-    border-radius: 25px;
-    background-color: white;
-    height: 160px;
-    width: 380px;
-}
 
 .imgh9 {
     margin: 5px;
@@ -640,10 +365,9 @@ input[type="search"] {
     width: 900px;
 }
 
-/*Hobbies body*/
+
 
 #hobby {
-
     margin-top: 10px;
     flex-wrap: wrap;
     display: flex;
@@ -659,7 +383,7 @@ input[type="search"] {
 }
 
 
-#hb1block{
+.hb1block{
     border-radius: 25px;
     border-color: #F2F2F2;
     background-color: white;
@@ -749,14 +473,6 @@ input[type="search"] {
     color: black;
 }
 
-#hb4block {
-    border-color: #F2F2F2;
-    box-shadow: 0px 1px 1px 1px #F2F2F2;
-    border-radius: 25px;
-    background-color: white;
-    height: 430px;
-    width: 300px;
-}
 
 
 .imghb4 {
@@ -786,7 +502,7 @@ input[type="search"] {
 
 
 
-#hb5block {
+.hb5block {
 
     border-color: #F2F2F2;
     box-shadow: 0px 1px 1px 1px #F2F2F2;
@@ -813,15 +529,6 @@ input[type="search"] {
     color: black;
 }
 
-#hb6block {
-    margin-top: 25px;
-    border-color: #F2F2F2;
-    box-shadow: 0px 1px 1px 1px #F2F2F2;
-    background-color: white;
-    border-radius: 25px;
-    height: 200px;
-    width: 300px;
-}
 
 
 .imghb6 {
@@ -839,53 +546,38 @@ input[type="search"] {
     text-align: left;
     color: black;
 }
+*/
 
 
-/*FOOTER*/
+footer {
 
- #footerBG {
-    margin-top: 10px;
-    flex-wrap: wrap;
-    display: flex;
-    background-color:  #F2F2F2;
-    height: 200px; 
-    max-height: 200px; 
+  background-color: #F2F2F2;
+  min-height: 250px;
+  margin-top: 30px;
+
 }
 
-.footerBlocks {
-    margin-top: 20px;
-    display: flex;
+#footerBlock {
+    padding-top: 15px;
     justify-content: space-around;
-    background-color:  #F2F2F2;
-    width: 1200px;
-    max-width: auto;
+    display: flex;
 }
 
-.aboutchild {
-    margin-top: 30px;
-    list-style-type: none;
-    max-height: 200px; 
-    max-width: 200px;
-    width: auto;
-    height: auto;
- }
 
 
- .accochild {
-    margin-top: 30px;
-    list-style-type: none;
-    max-height: 200px; 
-    max-width: 200px;
-    width: auto;
-    height: auto;
- }
+.footerLink {
+    
 
- .helpchild {
-    margin-top: 30px;
-    list-style-type: none;
-    max-height: 200px; 
-    max-width: 200px;
-    width: auto;
-    height: auto;
- }
+  margin-top: 15px;
+  display: block;
 
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
+
+.footerLink:visited {
+    color: black;
+    text-decoration: none;
+}
