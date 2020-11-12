@@ -3,29 +3,49 @@
 
 
 
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 991px) { /*IPAD*/
 
+    #hostelBlock {
+        background-color: white;    
+    }
 
+    #hostelBlock {
+        height: 650px;
+        width: 900px;
+    }
+
+
+    .hCard {
+        
+        min-width: 250px;
+        max-height: 200px;
+      }
 
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
-    body {
-        max-width: 1199px;
-    }
 
-
-    #hebergechild {  
-
-        height: 1800px;
-        width: 450px;
-    }
 
 }
 
 @media screen and (min-width: 1200px) {
 
  
+    #hostelBlock {
+        height: 650px;
+        width: 900px;
+    }
+
+
+    .hCard {
+        
+        width: 250px;
+        height: 200px;
+      }
+    
+
 }
