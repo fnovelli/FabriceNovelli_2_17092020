@@ -36,7 +36,7 @@
 
  
     #hostelBlock {
-        height: 650px;
+        height: 700px;
         width: 900px;
     }
 
@@ -45,6 +45,19 @@
         
         width: 250px;
         height: 200px;
+      }
+
+
+     #popularBlock {
+        height: 700px;
+        width: 460px;
+    }
+
+
+    .pCard {
+        
+        height: 140px;
+        width: 380px;
       }
     
 
