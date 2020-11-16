@@ -19,7 +19,6 @@ body {
 
 .banniere {
     display: flex; 
-
 }
 
 #title {
@@ -45,6 +44,7 @@ body {
 
 .fitem:hover{
     color: #0065FC;
+    text-decoration: underline;
 }
 
 a:link {
@@ -126,7 +126,6 @@ nav li {
     margin-left: 20px;
     height: 30px;
     width: 100%;
-    
 }
 
 
@@ -184,10 +183,10 @@ nav li {
 
 #popularBlock {  
 
-    flex-direction: column;
+
     flex-wrap: wrap;
     margin-right: 20px;
-    justify-content: space-around;
+
     border-radius: 20px;
     background-color: #F2F2F2;
     display: flex;
@@ -197,6 +196,7 @@ nav li {
     margin-left: 20px;
     height: 20px;
     width: 100%;
+
 }
 
 .pCard {
@@ -224,7 +224,6 @@ nav li {
   .pTextChild {
     margin-left: 10px;
     width: 220px;
-
 }
 
 .psubText {
