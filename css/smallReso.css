@@ -79,6 +79,11 @@
       }
 
 
+      .hobbyCard {
+        
+        height: 180px;
+        width: 350px;
+      }
     
 
 }
