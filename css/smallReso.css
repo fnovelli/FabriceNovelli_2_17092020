@@ -8,35 +8,164 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px) { /*IPAD*/
 
-    #hostelBlock {
-        background-color: white;    
-    }
 
-    #hostelBlock {
-        height: 650px;
-        width: 900px;
-    }
+  #hostel {
+    display: flex;
+    justify-content: space-around;
+  }
 
 
-    .hCard {
-        
-        min-width: 250px;
-        max-height: 200px;
-      }
+  #hostelBlock {
+    height: 700px;
+    width: 900px;
+    order: 1;
+    margin-top: 20px;
+  }
 
-      .pCard {
-        
-        min-width: 250px;
-        max-height: 100px;
-      }
 
-      #searchButton {
-        max-width: 90px;
-      }
+
+.hCard {
+    
+    width: 250px;
+    height: 200px;
+  }
+
+
+ #popularBlock {
+    height: 700px;
+    width: 460px;
+ }
+
+
+
+.pCard {
+    
+    height: 140px;
+    width: 380px;
+  }
+
+  #searchBar {
+    width: 220px;
+  }
+
+  #searchButton {
+    width: 110px;
+  }
+
+
+  #hobby {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    height: 600px;
+    width: 300px;
+  }
+
+  .hobbyCard {
+    max-height: 600px;
+    height: 450px;
+    width: 305px;
+  }
+
+  .hbGroup {
+    height: 450px;
+  }
+
+  .hobbyCard2 {
+    height: 220px;
+    width: 305px;
+  }
+
+  .hobbyCard3 {
+
+    height: 150px;
+    width: 305px;
+  }
+
+  .hobbyCard4 {
+    height: 180px;
+    width: 305px;
+  }
+
+  
+  .hobbyCard5 {
+    height: 180px;
+    width: 305px;
+  }
+
 
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+
+  #hostelBlock {
+    height: 700px;
+    width: 900px;
+}
+
+
+.hCard {
+    
+    width: 250px;
+    height: 200px;
+  }
+
+
+ #popularBlock {
+    height: 700px;
+    width: 460px;
+}
+
+
+.pCard {
+    
+    height: 140px;
+    width: 380px;
+  }
+
+  #searchBar {
+    width: 220px;
+  }
+
+  #searchButton {
+    width: 110px;
+  }
+
+
+  .hobbyCard {
+    max-height: 600px;
+    height: 450px;
+    width: 305px;
+  }
+
+  .hbGroup {
+    height: 450px;
+  }
+
+  .hobbyCard2 {
+    height: 220px;
+    width: 305px;
+  }
+
+  .hobbyCard3 {
+
+    height: 150px;
+    width: 305px;
+  }
+
+  .hobbyCard4 {
+    height: 180px;
+    width: 305px;
+  }
+
+  
+  .hobbyCard5 {
+    height: 180px;
+    width: 305px;
+  }
 
 
 
@@ -78,12 +207,49 @@
         width: 110px;
       }
 
+      #hobby {
+        flex-wrap: wrap;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        height: 600px;
+    
+      }
+
 
       .hobbyCard {
-        
-        height: 180px;
-        width: 350px;
+        max-height: 600px;
+        height: 450px;
+        width: 305px;
       }
+
+      .hbGroup {
+        height: 450px;
+      }
+
+      .hobbyCard2 {
+        height: 220px;
+        width: 305px;
+      }
+
+      .hobbyCard3 {
+
+        height: 150px;
+        width: 305px;
+      }
+
+      .hobbyCard4 {
+        height: 180px;
+        width: 305px;
+      }
+
+      
+      .hobbyCard5 {
+        height: 180px;
+        width: 305px;
+      }
+    
     
 
 }
