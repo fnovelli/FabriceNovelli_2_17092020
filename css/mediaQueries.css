@@ -19,6 +19,7 @@
       flex-wrap: wrap;
     }
 
+
     #hostelBlock {
         order: 2;
         background-color: white;    
@@ -43,6 +44,18 @@
     }
 
 
+    
+  #searchBar {
+    min-width: 300px;
+  }
+
+  #searchButton {
+    padding: 20px 23px;
+    margin-left: -15px;
+    border-radius: 20px;
+  }
+
+
     .hCard {
       margin-top: 20px;
         min-width: 350px;
@@ -56,9 +69,6 @@
       }
 
 
-      #searchButton {
-        max-width: 90px;
-      }
 
       .hobbyCard, .hobbyCard2, .hobbyCard3, .hobbyCard4, .hobbyCard5 {
         margin-top: 40px;
@@ -97,6 +107,7 @@
     flex-wrap: wrap;
   }
 
+
   #hostelBlock {
       order: 2;
       background-color: white;    
@@ -116,6 +127,11 @@
     display: flex;
 }
 
+  #searchBar {
+    min-width: 300px;
+  }
+
+
   #searchText {
     display: none;
   }
@@ -134,9 +150,6 @@
     }
 
 
-    #searchButton {
-      max-width: 90px;
-    }
 
     .hobbyCard, .hobbyCard2, .hobbyCard3, .hobbyCard4, .hobbyCard5 {
       margin-top: 40px;
@@ -163,6 +176,9 @@
 @media screen and (min-width: 1200px) {
 
  
+  .fCard {
+    max-height: 42px;
+  }
 
     #hostelBlock {
 
@@ -191,7 +207,7 @@
       }
 
       #searchBar {
-        width: 220px;
+        min-width: 220px;
       }
 
       #searchButton {
@@ -238,7 +254,9 @@
         height: 200px;
         width: 305px;
       }
-    
-    
+
+      #searchIcon {
+        display: none;
+      }
 
 }
