@@ -1,5 +1,9 @@
 ﻿﻿
-@media screen and (max-width: 767px) {
+
+
+
+
+  @media screen and (max-width: 767px)  {
 
   body, #searchBar, #info, .hsubText, .psubText, .stars  {
     font-size: 20px;
@@ -90,95 +94,8 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 991px) { /*IPAD*/
 
-    body, #searchBar, #info, .hsubText, .psubText, .stars  {
-      font-size: 20px;
-    }
-
-    body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-    #searchText {
-      display: none;
-    }
-
-
-    
-    #searchBar {
-     min-width: 300px;
-    }
-
-    #searchButton {
-     padding: 20px 23px;
-      margin-left: -15px;
-      border-radius: 20px;
-    }
-
-
-    #hostelBlock {
-        order: 2;
-        background-color: white;    
-        margin-top: 15px;  
-        margin-right: 0px;
-    }
-
-
-
-    .hCard {
-      margin-top: 20px;
-        min-width: 350px;
-        max-height: 250px;
-      }
-
-      .pCard {
-        margin-top: 20px;
-        max-width: 550px;
-        max-height: 160px;
-      }
-
-      #popularBlock {  
-        margin-right: 0px;
-        justify-content: center;
-        min-height: 700px;
-    }
-  
-
-      .hobbyCard, .hobbyCard2, .hobbyCard3 {
-        margin-top: 40px;
-        max-height: 320px;
-
-        max-width: 605px;
-      }
-
-      #hobby {
-        flex-wrap: wrap;
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        border-radius: 20px;
-      }
-
-
-      
-    #showmoreT {
-      margin-top: 40px;
-      font-size: 25px;
-    }
-
-    #footerBlock {
-
-      align-items: center;
-      text-align: center;
-      flex-direction: column;
-    }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
 
   body, #searchBar, #info, .hsubText, .psubText, .stars  {
     font-size: 20px;
@@ -261,6 +178,7 @@
 
 }
 
+
 @media screen and (min-width: 1200px) {
 
  
@@ -336,7 +254,5 @@
         height: 200px;
         width: 305px;
       }
-
-
-
-}
+    
+  }
