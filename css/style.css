@@ -1,15 +1,11 @@
 ﻿
-
 body {
-    min-width: 300px;
-    max-width: 1400px;
+
     width: auto;
     margin: auto;
     font-family: 'Raleway';
     padding: 40px;
 }
-
-
 
 #menuBlock {
     display: flex; 
@@ -26,9 +22,14 @@ body {
 }
 
 #subTitle {
-    margin-top: -12px;
-    margin-left: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#subTitle2 {
+    margin-top: -12px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .linkM:visited {
@@ -38,6 +39,8 @@ body {
 
 .linkM {
    margin: 30px;  
+   display: flex;
+   flex-wrap: wrap;
 
 }
 
@@ -45,7 +48,6 @@ body {
     color: #0065FC;
     text-decoration: overline;
 }
-
 
 .fitem:hover{
     color: #0065FC;
@@ -56,14 +58,10 @@ a:link {
     text-decoration: none;
 }
 
-
 .menu {
-    justify-content: end;
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
 }
-
 
 nav ul  {
     display: flex;
@@ -75,7 +73,6 @@ nav li {
     justify-content: space-around;
     margin-right: 80px;
 }
-
 
 #searchBlock {
     margin-top: 20px;
@@ -118,20 +115,17 @@ nav li {
   }
 
   #searchText {
-
       margin-left: 10px;
   }
 
 
    #searchFilters {
-
     margin-top: 20px;
     flex-wrap: wrap;
     display: flex;
   }
 
   #fTitle {
-    
     margin-right: 20px;
     align-items: center;
     display: flex;
@@ -152,11 +146,9 @@ nav li {
     margin: 0px 15px;
   }
 
-
   .fCard:hover{   
     background-color: gold;
 }
-
 
   .fIcon {
     font-size: 20px;
@@ -172,13 +164,10 @@ nav li {
   }
 
 
-
-
 #info {
     margin-top: 20px;
     font-size: 16px;
 }
-
 
 
 #hostel {
@@ -202,10 +191,7 @@ nav li {
     width: 100%;
 }
 
-
-
 .hCard {
-
     background-color: white;
     padding: 5px;
     border-radius: 20px;
@@ -247,9 +233,6 @@ nav li {
     color:#0065FC;
     order: 1;
   }
-
-
-
 
 #showmoreT {
     margin-left: 20px;
@@ -295,9 +278,6 @@ nav li {
     max-width: 33%;
     border-radius: 20px 0px 0px 20px;
   }
-
-
-
   .pTextChild {
     margin-left: 10px;
     width: 220px;
@@ -305,18 +285,16 @@ nav li {
 
 .psubText {
     margin-left: 10px;
-
     max-width: 100%;
     font-size: 14px;
 }
 
 
+
   #hobbyTitle {
     width: 100%;
     height: 30px;
-
 }
-
 
 .hobbyCard, .hobbyCard2, .hobbyCard3, .hobbyCard4, .hobbyCard5 {
 
@@ -324,14 +302,11 @@ nav li {
     background-color: white;
     border-radius: 20px;
     flex-direction: column;
-
     max-width: 100%;
     max-height: 100%;
-
     color:black;
     display: flex;
   }
-
 
 
 .hbImg {
@@ -356,8 +331,7 @@ nav li {
     margin-left: 10px;
     margin-top: 15px;
     display: flex;
-  
-    align-self: left;
+
     max-width: 100%;
     max-height: 30px;
 }
@@ -370,6 +344,7 @@ nav li {
   display: flex;
 }
 
+/*footer*/
 
 #footerBlock {
     background-color: #F2F2F2;
@@ -380,7 +355,6 @@ nav li {
     justify-content: space-around;
     display: flex;
 }
-
 
 .footerLink {
   margin-top: 15px;
@@ -394,4 +368,214 @@ nav li {
 .footerLink:visited {
     color: black;
     text-decoration: none;
+}
+
+
+/*media Queries resolution*/
+
+@media screen and (min-width: 1200px) { /*desktop and more*/
+
+  body {
+    min-width: 300px;
+    max-width: 1400px;
+  }
+  .fCard {
+    max-height: 42px;
+  }
+  #hostelBlock {
+    min-height: 600px;
+    max-width: 900px;
+  }
+  .hCard {
+    width: 250px;
+    height: 200px;
+  }
+  #popularBlock {
+    margin-right: 20px;
+    max-width: 460px;
+  }
+  .pCard {
+    height: 140px;
+    width: 380px;
+  }
+  #searchBar {
+    min-width: 220px;
+  }
+  #searchButton {
+    width: 110px;
+  }
+  #searchIcon {
+    display: none;
+  }
+  #hobby {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+  }
+  .hobbyCard {
+    max-height: 600px;
+    height: 430px;
+    width: 305px;
+  }
+  .hbGroup {
+    height: 430px;
+  }
+  .hobbyCard2 {
+    height: 180px;
+    width: 305px;
+  }
+  .hobbyCard3 {
+    height: 200px;
+    width: 305px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px)  { /*Ipad*/
+  body, #searchBar, #info, .hsubText, .psubText, .stars {
+    font-size: 20px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .menu {
+    justify-content: end;
+  }
+
+  #searchText {
+    display: none;
+  }
+  #searchBar {
+    min-width: 300px;
+  }
+  #searchButton {
+    padding: 20px 23px;
+    margin-left: -15px;
+    border-radius: 20px;
+  }
+  #hostelBlock {
+    order: 2;
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 0px;
+  }
+  .hCard {
+    margin-top: 20px;
+    min-width: 350px;
+    max-height: 250px;
+  }
+  .pCard {
+    margin-top: 20px;
+    max-width: 550px;
+    max-height: 160px;
+  }
+  #popularBlock {
+    margin-right: 0px;
+    justify-content: center;
+    min-height: 700px;
+  }
+  .hobbyCard, .hobbyCard2, .hobbyCard3 {
+    margin-top: 40px;
+    max-height: 320px;
+    max-width: 605px;
+  }
+  #hobby {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  #showmoreT {
+    margin-top: 40px;
+    font-size: 25px;
+  }
+
+  #footerBlock {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) { /*smartphone*/
+  
+  body, #searchBar, #info, .hsubText, .psubText, .stars {
+    font-size: 15px;
+  }
+
+  #subTitle {
+    margin-top: -5px;
+  font-size: 20px;
+}
+
+  #searchText {
+    display: none;
+  }
+  
+
+  #searchButton {
+    padding: 20px 23px;
+    margin-left: -15px;
+    border-radius: 20px;
+  }
+
+  #searchMap {
+    font-size: 20px;
+  }
+
+
+  #hostelBlock {
+    order: 2;
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 0px;
+  }
+  .hCard {
+    margin-top: 20px;
+    min-width: 350px;
+    max-height: 250px;
+  }
+  .pCard {
+
+    margin-top: 20px;
+    max-width: 240px;
+    max-height: 130px;
+  }
+
+  #popularBlock {
+    margin-right: 0px;
+    min-height: 700px;
+  }
+  .hobbyCard, .hobbyCard2, .hobbyCard3 {
+    margin-top: 40px;
+    max-height: 320px;
+    max-width: 605px;
+  }
+  #hobby {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  #showmoreT {
+    margin-top: 40px;
+    font-size: 25px;
+  }
+  #footerBlock {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    flex-direction: column;
+  }
 }
