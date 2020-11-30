@@ -41,7 +41,6 @@ body {
    margin: 30px;  
    display: flex;
    flex-wrap: wrap;
-
 }
 
 .linkM:hover {
@@ -228,14 +227,14 @@ nav li {
 
 .stars {
     margin-top: 10px;
-    margin-left: 10px;
+
     font-size: 12px;
     color:#0065FC;
     order: 1;
   }
 
 #showmoreT {
-    margin-left: 20px;
+
     width: 100%;
     color: black;
     font-weight: bold;
@@ -243,7 +242,6 @@ nav li {
 
 #popularBlock {  
     flex-wrap: wrap;
-
     border-radius: 20px;
     background-color: #F2F2F2;
     display: flex;
@@ -278,16 +276,7 @@ nav li {
     max-width: 33%;
     border-radius: 20px 0px 0px 20px;
   }
-  .pTextChild {
-    margin-left: 10px;
-    width: 220px;
-}
 
-.psubText {
-    margin-left: 10px;
-    max-width: 100%;
-    font-size: 14px;
-}
 
 
 
@@ -382,13 +371,19 @@ nav li {
   .fCard {
     max-height: 42px;
   }
+
   #hostelBlock {
     min-height: 600px;
     max-width: 900px;
   }
+
   .hCard {
     width: 250px;
     height: 200px;
+  }
+
+  .stars {
+    margin-left: 10px;
   }
   #popularBlock {
     margin-right: 20px;
@@ -398,6 +393,18 @@ nav li {
     height: 140px;
     width: 380px;
   }
+
+  .pTextChild {
+    margin-left: 10px;
+    width: 220px;
+  }
+
+.psubText {
+    margin-left: 10px;
+    max-width: 100%;
+    font-size: 14px;
+  }
+
   #searchBar {
     min-width: 220px;
   }
@@ -406,6 +413,10 @@ nav li {
   }
   #searchIcon {
     display: none;
+  }
+
+  #showmoreT {
+    margin-left: 20px;
   }
   #hobby {
     flex-wrap: wrap;
@@ -433,7 +444,7 @@ nav li {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px)  { /*Ipad*/
-  body, #searchBar, #info, .hsubText, .psubText, .stars {
+  body, #searchBar, #info, .hsubText, .psubText {
     font-size: 20px;
   }
 
@@ -442,10 +453,6 @@ nav li {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-  }
-
-  .menu {
-    justify-content: end;
   }
 
   #searchText {
@@ -465,26 +472,51 @@ nav li {
     margin-top: 15px;
     margin-right: 0px;
   }
+
   .hCard {
     margin-top: 20px;
-    min-width: 350px;
+    min-width: 450px;
     max-height: 250px;
   }
-  .pCard {
-    margin-top: 20px;
-    max-width: 550px;
-    max-height: 160px;
-  }
+
+  
   #popularBlock {
     margin-right: 0px;
     justify-content: center;
     min-height: 700px;
   }
+  
+  .pCard {
+    margin-top: 20px;
+    max-width: 550px;
+    max-height: 160px;
+  }
+
+
+  .pTextChild {
+    margin-left: 10px;
+    width: 220px;
+  }
+
+.psubText {
+    margin-left: 10px;
+    max-width: 100%;
+    font-size: 17px;
+  }
+
+  .stars {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+
+
   .hobbyCard, .hobbyCard2, .hobbyCard3 {
     margin-top: 40px;
     max-height: 320px;
     max-width: 605px;
   }
+
   #hobby {
     flex-wrap: wrap;
     margin-top: 20px;
@@ -504,11 +536,13 @@ nav li {
     align-self: center;
     flex-direction: column;
   }
+
+
 }
 
 @media screen and (max-width: 767px) { /*smartphone*/
   
-  body, #searchBar, #info, .hsubText, .psubText, .stars {
+  body, #searchBar, #info, .hsubText {
     font-size: 15px;
   }
 
@@ -517,9 +551,11 @@ nav li {
   font-size: 20px;
 }
 
+
   #searchText {
     display: none;
   }
+  
   
 
   #searchButton {
@@ -541,25 +577,53 @@ nav li {
   }
   .hCard {
     margin-top: 20px;
-    min-width: 350px;
+    min-width: 290px;
     max-height: 250px;
-  }
-  .pCard {
-
-    margin-top: 20px;
-    max-width: 240px;
-    max-height: 130px;
   }
 
   #popularBlock {
+
     margin-right: 0px;
-    min-height: 700px;
+    min-width: 310px;
+    min-height: 600px;
   }
+
+  .pCard {
+    margin-top: 20px;
+    max-width: 260px;
+    max-height: 130px;
+  }
+
+  .pText{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+
+  }
+
+  .pTextChild {
+    margin-left: 10px;
+    max-width: 140px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .psubText {
+    margin-left: 10px;
+  }
+
+
+  .stars {
+    margin-left: 10px;
+  }
+  
+
   .hobbyCard, .hobbyCard2, .hobbyCard3 {
     margin-top: 40px;
-    max-height: 320px;
+    max-height: 260px;
     max-width: 605px;
   }
+
   #hobby {
     flex-wrap: wrap;
     margin-top: 20px;
@@ -567,15 +631,19 @@ nav li {
     justify-content: center;
     border-radius: 20px;
   }
+  
   #showmoreT {
     margin-top: 40px;
-    font-size: 25px;
+    font-size: 18px;
   }
+
   #footerBlock {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    align-self: center;
+
     flex-direction: column;
+  }
+
+  .footerMenu {
+    margin-left: 10px;
+    min-height: 130px;
   }
 }
