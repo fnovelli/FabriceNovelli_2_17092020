@@ -9,8 +9,8 @@
 
 **Contraintes techniques**
 
-* Intégrer la maquette
-* Police du site Raleway
+* Intégrer la maquette (Desktop, Tablette et Smartphone)
+* Intégrer la police Raleway
 * Intégrer les icônes provenant de Font Awesome.
 
 
