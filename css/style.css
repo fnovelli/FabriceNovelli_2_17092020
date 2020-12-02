@@ -17,6 +17,7 @@ body {
     display: flex; 
 }
 
+
 #title {
     margin-bottom: 8px;
 }
@@ -369,6 +370,10 @@ nav li {
     max-width: 1400px;
   }
 
+  #menuHeb {
+    border-top: 2px solid  #0065FC;
+  }
+
   .linkM {
     margin: 30px;  
   }
@@ -457,6 +462,10 @@ nav li {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  #menuHeb {
+    border-top: 2px solid  #0065FC;
   }
 
   .linkM {
@@ -559,6 +568,16 @@ nav li {
   #subTitle {
     margin-top: -5px;
   font-size: 20px;
+}
+
+#menuHeb {
+  border-bottom: 2px solid  #0065FC;
+}
+
+#menuAct {
+    border-bottom: 2px solid  #F2F2F2;
+    margin-left: 10px;
+  
 }
 
 .linkM {
